@@ -49,3 +49,10 @@
         planing_class()
         planing_salle()
         Most_use_salle()
+#### Fonctions Supplémentaire:
+    Gestion_des_classe()
+    Gestion_des_salles()
+    Gestion_des_reserv()
+    menu()
+
+
