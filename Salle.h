@@ -1,12 +1,12 @@
 #ifndef _SALLE_H_
 #define _SALLE_H_
-
+#define codeslcaractere 8
 
 /*Définition d'une salle*/
 typedef struct Salle
 {
-    char code_salle[10];
-    char salle_name[16];
+    char code_salle[codeslcaractere];
+    char salle_name[10];
     int salle_capacity;
     char dispo_machine[4];
 }Salle;

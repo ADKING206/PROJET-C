@@ -5,12 +5,13 @@
 #include "Classe.h"
 #include "Salle.h"
 #include "Reservation.h"
+#include "gestion.h"
 
 
 
 int main(int argc, char **argv)
 {
     setlocale(LC_ALL,"French");
-    add_class();
+    menu();
     return 0;
 }
