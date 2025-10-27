@@ -1,6 +1,6 @@
 #ifndef _RESERVATION_H_
 #define _RESERVATION_H
-
+#define MOIS 10
 typedef enum etat{
     VALIDE , EN_ATTENTE , REFUSER , TERMINER
 }etat;
@@ -17,8 +17,8 @@ typedef struct Date
 typedef struct Reservation
 {
     int Num_reserv;
-    char code_classe_reserv[10];
-    char code_salle_reserv[10];
+    char code_classe_reserv[codecaractere];
+    char code_salle_reserv[codeslcaractere];
     int Heure_de_debut;
     int Heure_de_fin;
     char motif[25];
@@ -37,4 +37,8 @@ void seach_reserv_salle(void);
 void planing_salle(void);
 void planing_class(void);
 void Most_use_salle(void);
+
+
+bool sauvauch_t_il(int HB , int HF , int JJ , int MM , int AA );
+bool existance_jour(int j,int m, int an );
 #endif

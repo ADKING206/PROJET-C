@@ -18,4 +18,6 @@ void edit_salle(void);
 void delete_salle(void);
 void search_salle(void);
 void show_salle(void);
+
+bool code_salle_exist(char code[]);
 #endif
